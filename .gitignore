@@ -1,0 +1,4 @@
+.pio/
+.vscode/
+backups/
+.DS_Store

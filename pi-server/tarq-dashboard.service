@@ -1,0 +1,15 @@
+[Unit]
+Description=TARQ Raspberry Pi dashboard server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=om
+WorkingDirectory=/home/om/tarq-dashboard/pi-server
+ExecStart=/usr/bin/python3 /home/om/tarq-dashboard/pi-server/server.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

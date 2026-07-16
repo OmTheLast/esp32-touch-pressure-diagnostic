@@ -2,3 +2,6 @@
 .vscode/
 backups/
 .DS_Store
+include/secrets.h
+__pycache__/
+*.pyc

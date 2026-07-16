@@ -8,6 +8,8 @@ system monitor for it.
 The screen now updates every five seconds and shows the Pi's temperature, memory
 use, storage use, uptime, and online status.
 
+![Working ESP32 dashboard showing live Raspberry Pi measurements](docs/images/esp32-pi-monitor.jpg)
+
 ## What I used
 
 - Raspberry Pi 5 with 8 GB RAM
@@ -37,6 +39,8 @@ that raw sensor readings are not the same as calibrated screen pixels.
 I installed the official Active Cooler on the Pi 5, connected its fan cable,
 fitted the bumper, and inserted the microSD card. I used Raspberry Pi Imager on
 the Mac to install Raspberry Pi OS and preconfigured:
+
+![Raspberry Pi 5 assembled with the official Active Cooler and bumper](docs/images/raspberry-pi-5-assembly.jpg)
 
 - Hostname: `tarq-pi`
 - Wi-Fi

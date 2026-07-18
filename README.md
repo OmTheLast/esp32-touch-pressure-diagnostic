@@ -228,3 +228,8 @@ Pi sensors -> Python -> HTTP/JSON -> Wi-Fi -> ESP32 -> TFT display
 This project taught me how to assemble and verify a Pi, install Linux, use SSH,
 run a background service, expose a small API, connect an ESP32 to Wi-Fi, parse
 JSON, and turn data from one computer into a live display on another.
+
+
+##Whats next
+
+Planning to use the actual breadboard, and get my hands dirty with some wires and circuit making.
